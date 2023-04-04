@@ -10,7 +10,10 @@ Basic
 Setup of master machine -
 1) Access the master machine by putty or any other tools 
 2) Take the administrative previlege  by  command : sudo su 
-3) create a file install.sh and paste the  command from the below link and save it 
-   Link - <a href="https://raw.githubusercontent.com/abhiramdas99/devops-kubernetes-practical-01/main/master-node/install.sh">link </a>
+3) create a file install.sh and paste the  command from the link and save it 
+   Link - <a target="_blank" href="https://raw.githubusercontent.com/abhiramdas99/devops-kubernetes-practical-01/main/master-node/install.sh">link </a>
+   
+4) execute the file  the command is : bash install.sh 
+5) 
 
 
