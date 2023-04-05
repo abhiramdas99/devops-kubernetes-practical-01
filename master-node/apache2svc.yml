@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: apache-deployment
+
+spec:
+  type: ClusterIP  # For nodeprt use - NodePort
+  ports:
+    - targetPort: 80
+      port: 80
+      nodePort: null # For nodeport, the port not greater than  30000
+  selector:
+    app: apache
